@@ -1,0 +1,53 @@
+
+body{
+    background-color: black !important;
+}
+.centar{
+    display: flex;
+    justify-self: center;
+    margin:0 auto;
+    background-color: black;
+    margin-top: 10vh;
+    padding: 0;
+}
+.medium{
+    height: 40vh; /*procent od vidliviot prostor na ekranot*/
+
+}
+.small{
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+}
+#previousBtn, #nextBtn, #previousBtn1, #nextBtn1{
+    display: none;
+}
+#loader{
+    display: none;
+}
+table{
+    display: block;
+    position: relative;
+    left:19%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    
+}
+td{
+    text-align: center ;
+    font-size: large;
+    background-color: rgba(255,255,255,0.4);
+    color: black;
+    width: 160px;
+   
+    
+}
+thead{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+tbody{
+    margin-top: 0px;
+}
+
